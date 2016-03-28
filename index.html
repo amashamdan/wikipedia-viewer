@@ -8,12 +8,44 @@
 	<script src="js/script.js"></script>
 </head>
 <body>
+	<!-- Container div -->
 	<div class="container">
+		<!-- Header div, includes title and instructions. -->
 		<div class="header">
+			<!-- The page's title -->
+			<div class="title">
+				<h1>Wikipedia Viewer</h1>
+			</div>
+			<!-- Instructions on how to use the page. -->
+			<div class="instructions">
+				<p class="instruction">To search for a random topic, click on "Random Search" button.</p>
+				<p class="instruction">To seatch for a certain topic, type it in the search field and click the "Search" button.</p>
+			</div>
 		</div>
 		<div class="random-article">
+			<!-- A button to go for a random article. -->
+			<a class="random-link" href="http://en.wikipedia.org/wiki/Special:Random"  target="blank"><button class="random-button">Random Article</button></a>
 		</div>
 		<div class="search">
+			<!-- A form to search for a certain article. It includes the search field and the search button. -->
+			<form class="search-form">
+				<input type="text" class="search-field" placeholder="Search for...">
+				<button type="submit" class="search-button">Search</button>
+			</form>
+		</div>
+		<!-- The footer section. It includes the page's author's information. -->
+		<div class="footer">
+			<!-- Author's information -->
+			<div class="author">
+				<p>Page by Amer Hamdan</p>
+				<p>Visit my pages:</p>
+				<ul class="pages">
+					<li><p><a href="http://amashamdan.github.io/P1-portfolio/" target="blank">Portfolio</a></p></li>
+					<li><p><a href="https://github.com/amashamdan" target="blank">Github</a></p></li>
+					<li><p><a href="http://codepen.io/amashamdan/" target="blank">CodePen</a></p></li>
+					<li><p><a href="https://www.linkedin.com/in/amerhamdan" target="blank">Linkedin</a></p></li>
+				</ul>
+			</div>
 		</div>
 	</div>
 </body>

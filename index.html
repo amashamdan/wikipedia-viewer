@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Wikipedia Viewer</title>
+	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/main.css">
 	<script src="js/jquery.min.js"></script>
 	<script src="js/script.js"></script>
@@ -21,19 +22,19 @@
 				<p class="instruction">To search for a random topic, click on "Random Search" button.</p>
 				<p class="instruction">To seatch for a certain topic, type it in the search field and click the "Search" button.</p>
 			</div>
-		</div>
+		</div><hr/>
 		<div class="random-article">
 			<!-- A button to go for a random article. -->
-			<a class="random-link" href="http://en.wikipedia.org/wiki/Special:Random"  target="blank"><button class="random-button">Random Article</button></a>
+			<p><a class="random-link" href="http://en.wikipedia.org/wiki/Special:Random"  target="blank"><button class="button">Random Article</button></a></p>
 		</div>
 		<div class="search">
 			<!-- A form to search for a certain article. It includes the search field and the search button. -->
 			<form class="search-form">
 				<input class="search-field" placeholder="Search for...">
-				<button class="search-button" type="submit">Search</button>
+				<button class="button" type="submit">Search</button>
 			</form>
 			<div class="results"></div>
-		</div>
+		</div><hr/>
 		<!-- The footer section. It includes the page's author's information. -->
 		<div class="footer">
 			<!-- Author's information -->

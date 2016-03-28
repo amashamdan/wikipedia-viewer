@@ -1,0 +1,89 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color: white;
+	background-color: #2b579a;
+}
+
+.container {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.title {
+	text-align: center;
+}
+
+.instruction {
+	margin: 1px;
+}
+
+.random-article {
+	text-align: center;
+}
+
+.button {
+	border: 1px solid white;
+	background-color: #2b579a;
+	color: white;
+	border-radius: 5px;
+	height: 25px;
+	width: 120px;
+}
+
+.button:hover {
+	cursor: pointer;
+}
+
+.search {
+	text-align: center;
+}
+
+.search-field {
+	height: 12px;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.results {
+	text-align: left;
+
+}
+
+.result {
+	background-color: white;
+	padding: 3px 15px 3px 15px;
+	margin-bottom: 10px;
+	display: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.result-title {
+	color: #2b579a;
+}
+
+.result-snippet {
+	color: #2b579a;
+}
+
+.footer {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.author {
+	width: 50%;
+	font-size: 0.8em;
+	color: white;
+}
+
+.author p {
+	margin: 2px;	
+}
+
+.author a {
+	color: white;
+}

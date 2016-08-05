@@ -12,6 +12,7 @@ body {
 
 .title {
 	text-align: center;
+	font-size: 0.8em;
 }
 
 .instruction {
@@ -27,8 +28,10 @@ body {
 	background-color: #2b579a;
 	color: white;
 	border-radius: 5px;
-	height: 25px;
-	width: 120px;
+	height: 40px;
+	width: 50%;
+	max-width: 300px;
+
 }
 
 .button:hover {
@@ -40,9 +43,12 @@ body {
 }
 
 .search-field {
-	height: 12px;
+	height: 25px;
+	width: 50%;
+	max-width: 300px;
 	border-radius: 5px;
 	padding: 5px;
+	margin: 10px 0 10px 0;
 }
 
 .results {
